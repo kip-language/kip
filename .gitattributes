@@ -1,4 +1,7 @@
 *          text=auto
+*.ml*             text eol=lf linguist-language=OCaml
+dune              text eol=lf
+dune.inc          text eol=lf
 
 # Documents
 *.bibtex   text diff=bibtex
