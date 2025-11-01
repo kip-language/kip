@@ -1,0 +1,8 @@
+(library
+ (name        kip_cli)
+ (public_name kip.cli)
+ (modules     :standard)
+ (libraries   kip.shared kip.driver 
+              kip.lint)
+ (wrapped     true))
+
