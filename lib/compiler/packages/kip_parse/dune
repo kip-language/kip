@@ -1,12 +1,11 @@
 (library
- (name        kip_parse)
+ (name kip_parse)
  (public_name kip.parse)
- (modules     :standard)
- (libraries   kip.shared kip.diagnostics kip.ast)
- (wrapped     true))
+ (modules :standard)
+ (libraries kip.shared kip.diagnostics kip.ast)
+ (wrapped true))
 
 ; Uncomment when using menhir
 ; (menhir
 ;  (modules parser)
 ;  (flags --explain))
-
