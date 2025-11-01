@@ -1,0 +1,16 @@
+(env
+ (dev
+  (flags (:standard -w +a -warn-error -A)) 
+  (ocamlopt_flags (:standard -O2))
+  (ocamlc_flags (:standard)))
+ (release
+  (flags (:standard -w +a -warn-error -A))
+  (ocamlopt_flags (:standard -O3))
+  (ocamlc_flags (:standard))))
+
+(alias
+ (name default)
+ (deps
+  (alias_rec bin/all)
+  (alias_rec lib/all)
+  (alias_rec test/all)))
