@@ -1,0 +1,27 @@
+(library
+ (name        kip_representation)
+ (public_name kip.representation)
+ (modules     :standard) ; 
+ (libraries   kip.shared kip.diagnostics kip.ast)
+ (wrapped     true))
+
+(library
+ (name        kip_representation_high)
+ (public_name kip.representation.high)
+ (modules     :standard)
+ (libraries   kip.representation kip.shared kip.diagnostics kip.ast)
+ (wrapped     true))
+
+(library
+ (name        kip_representation_middle)
+ (public_name kip.representation.middle)
+ (modules     :standard)
+ (libraries   kip.representation kip.shared kip.diagnostics kip.ast)
+ (wrapped     true))
+
+(library
+ (name        kip_representation_immediate)
+ (public_name kip.representation.immediate)
+ (modules     :standard)
+ (libraries   kip.representation kip.shared kip.diagnostics kip.ast)
+ (wrapped     true))
