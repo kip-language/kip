@@ -1,0 +1,12 @@
+
+(executable
+ (name        main)        
+ (public_name kip)         
+ (modules     main)
+ (libraries   kip.cli)
+ (modes       exe)
+ (flags       (:standard -w +a -warn-error -A)))
+
+(alias
+ (name all)
+ (deps (:exe main.exe)))

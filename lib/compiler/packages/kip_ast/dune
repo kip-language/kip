@@ -1,0 +1,6 @@
+(library
+ (name        kip_ast)
+ (public_name kip.ast)
+ (modules     :standard)
+ (libraries   kip.shared kip.diagnostics)
+ (wrapped     true))

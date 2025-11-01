@@ -1,0 +1,6 @@
+(library
+ (name kip_shared)
+ (public_name kip.shared)
+ (modules :standard)
+ (wrapped true)
+ )
