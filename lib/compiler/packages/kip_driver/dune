@@ -1,0 +1,11 @@
+(library
+ (name        kip_driver)
+ (public_name kip.driver)
+ (modules     :standard)
+ (libraries   kip.shared kip.diagnostics
+              kip.ast kip.parse
+              kip.representation.high
+              kip.representation.middle
+              kip.representation.immediate)
+ (wrapped     true))
+
