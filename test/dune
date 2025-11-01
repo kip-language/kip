@@ -2,5 +2,7 @@
  (name test_main)
  (libraries alcotest kip.shared kip.parse kip.ast kip.diagnostics)
  (modes exe)
- (flags (:standard -w +a -warn-error -A))
- (action (run %{exe:test_main.exe})))
+ (flags
+  (:standard -w +a -warn-error -A))
+ (action
+  (run %{exe:test_main.exe})))

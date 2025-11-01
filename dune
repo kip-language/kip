@@ -1,11 +1,15 @@
 (env
  (dev
-  (flags (:standard -w +a -warn-error -A)) 
-  (ocamlopt_flags (:standard -O2))
+  (flags
+   (:standard -w +a -warn-error -A))
+  (ocamlopt_flags
+   (:standard -O2))
   (ocamlc_flags (:standard)))
  (release
-  (flags (:standard -w +a -warn-error -A))
-  (ocamlopt_flags (:standard -O3))
+  (flags
+   (:standard -w +a -warn-error -A))
+  (ocamlopt_flags
+   (:standard -O3))
   (ocamlc_flags (:standard))))
 
 (alias

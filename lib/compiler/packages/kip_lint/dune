@@ -1,6 +1,6 @@
 (library
- (name        kip_lint)
+ (name kip_lint)
  (public_name kip.lint)
- (modules     :standard)
- (libraries   kip.shared kip.diagnostics kip.ast kip.parse)
- (wrapped     true))
+ (modules :standard)
+ (libraries kip.shared kip.diagnostics kip.ast kip.parse)
+ (wrapped true))

@@ -1,6 +1,6 @@
 (library
- (name        kip_diagnostics)
+ (name kip_diagnostics)
  (public_name kip.diagnostics)
- (modules     :standard)
- (libraries   kip.shared)
- (wrapped     true))
+ (modules :standard)
+ (libraries kip.shared)
+ (wrapped true))
